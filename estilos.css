@@ -1,0 +1,95 @@
+body{
+    background: linear-gradient(to right,#f0f1bc,#d74f33) !important;
+    font-family: 'Inconsolata', monospace;
+}
+#presentacion {
+    display: block;
+}
+#fotoretrato {
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+#nombre {
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+}
+#carruselfotos {
+    display: flex;
+    height: 100%;
+}
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.9;
+    transition: 3s ease;
+}
+section img:hover {
+    cursor: crosshair;
+    width: 40%;
+    opacity: 1;
+    filter: contrast(120%);
+}
+.flecha {
+    left: 50%;
+    top: 50%;
+    height: 2rem;
+    width: 2rem;
+}
+.botonflecha {
+    width: 100%;
+    height: 2.1rem;
+    background: linear-gradient(to right,#f0f1bc,#d74f33) !important;
+    border: none;
+    color: white;
+    clear: both;
+}
+#botonarribanaranja {
+    display: none;
+}
+#colperfil {
+    display: none;
+}
+#parrafo-presentacion {
+    background-color: #1e8c93;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.accordion {
+    margin: 20px;
+}
+#carrusel-info {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.carousel-inner1 {
+    width: 15rem;
+    object-fit: contain;
+    float: left;
+}
+
+.carousel-inner2 {
+    width: 15rem;
+    object-fit: contain;
+    float: right;
+}
+
+.header {
+    color: #d74f33;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #d74f33;
+}
+div.form-group {
+    margin: 5px;
+}
